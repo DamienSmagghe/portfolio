@@ -3,7 +3,7 @@ const sectionsData =
     {
         id: 0,
         title:'Want to cooperate ?',
-        content: 'I’m looking for a 3 month internship between July and October 2019 to complete my formation at HETIC.',
+        content: 'I’m looking for a 6 month internship between June and December 2020 to complete my formation at HETIC.',
         cta: 'Contact me',
         link: 'mailto:damien.smagghe@hotmail.fr',
         isRouter: false

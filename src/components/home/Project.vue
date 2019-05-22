@@ -1,10 +1,9 @@
 <template>
-    <div class="home__projects__project">
+    <div class="home__projects__project" @click="runProject">
         <div class="row"></div>
         <span class="home__projects__project__id" v-html="data.id"></span>
         <div class="home__projects__project__overview">
-            <img src="../../assets/images/projects/avarram.jpg" alt="Project">
-    
+            <img :src="data.imageName" alt="Project">
         </div>
         <div class="home__projects__project__information">
             <h3 v-html="data.title"></h3>
@@ -12,7 +11,7 @@
             <small v-html="data.date"></small>
             <h4><span>Role : </span>{{data.role}}</h4>
             <p v-html="data.description"></p>
-            <a class='animated-arrow' href='https://google.com'>
+            <a class='animated-arrow' target="blank" :href="data.link">
                 <span class='the-arrow -left'>
                         <span class='shaft'></span>
                 </span>
@@ -40,6 +39,11 @@ import anime from 'animejs'
         data() {
             return {
                 last: false
+            }
+        },
+        methods: {
+            runProject() {
+                window.open(this.data.link, '_blank')
             }
         },
         computed: {
@@ -97,6 +101,7 @@ import anime from 'animejs'
         width: 100%;
         height: 100%;
         transition: 0.25s ease-out;
+        object-fit: cover;
     }
     
     .home__projects__project__information {

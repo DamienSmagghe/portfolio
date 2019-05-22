@@ -10,7 +10,7 @@
                             <p><span>Web stack :</span> HTML5, CSS, Modern Javascript (es6+), PHP.</p>
                         </li>
                         <li>
-                            <p><span>Vue.js | React.js :</span> These are my two main frameworks that i enjoy working with in Javascript.</p>
+                            <p><span>Vue.js :</span> This is my main framework that i enjoy working with in Javascript.</p>
                         </li>
                         <li>
                             <p><span>Anime.js | D3.js | Chart.js :</span> The librairies I use the most in Javascript.</p>
@@ -33,7 +33,7 @@
                         </li>
                         <li>
                             <p>
-                                I am also passionate about sports ( <span>Thai boxing, diving, sailing</span> ) and the marine world. If you want to talk Muay Thai or sea do not hesitate to <span>leave a message</span> ! I’d really love to work into a company or an agency that deals with sport companies.
+                                I am also passionate about sports ( <span>Thai boxing, diving, sailing</span> ) and the AI/data environment. If you want to talk muay-thay or AI/data do not hesitate to <span>leave a message</span> ! I’d really love to work into a company or an agency that deals with sport companies.
                             </p>
                         </li>
                     </ul>

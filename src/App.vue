@@ -25,18 +25,16 @@ export default {
      return {
        prevHeight: 0,
         transitionName: DEFAULT_TRANSITION,
+        cursorMain: {
+          x: 0,
+          y: 0
+        }
      };
    },
   created() {
     this.$router.beforeEach((to, from, next) => {
+
       let transitionName = to.meta.transitionName || from.meta.transitionName;
-
-    //   if (transitionName === 'slide') {
-    //     const toDepth = to.path.split('/').length;
-    //     const fromDepth = from.path.split('/').length;
-    //     transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left';
-    //   }
-
       this.transitionName = transitionName || DEFAULT_TRANSITION;
 
       next();
@@ -250,7 +248,13 @@ GENERAL STYLING
   width: 80%;
   margin: 0 auto;
 }
-
+body * ::selection {
+  background: #1C23F5;
+  color: white;
+}
+body {
+  overflow-x: hidden;
+}
 body, html {
   font-family: Manrope, Helvetica, sans-serif;
   color: #1c1d30;
@@ -437,7 +441,7 @@ body * {
     /* ANIMATION */
    .fade-enter-active,
 .fade-leave-active {
-  transition-duration: 0.5s;
+  transition-duration: 2.5s;
   transition-property: opacity;
   transition-timing-function: ease;
 }
@@ -446,6 +450,45 @@ body * {
 .fade-leave-active {
   opacity: 0
 }
+
+  .fadeleft-enter-active,
+.fadeleft-leave-active {
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.fadeleft-enter,
+.fadeleft-leave-active {
+  opacity: 0;
+  transform: translateX(-60px);
+}
+
+
+  .fadedown-enter-active,
+.fadedown-leave-active {
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+}
+
+.fadedown-enter,
+.fadedown-leave-active {
+  opacity: 0;
+  transform: translateY(60px);
+}
+
+  .fadeup-enter-active,
+.fadeup-leave-active {
+  transition-duration: 0.7s;
+  transition-timing-function: ease;
+}
+
+.fadeup-enter,
+.fadeup-leave-active {
+  opacity: 0;
+  transform: translateY(-60px);
+}
+
+
 .slide-left-enter-active,
 .slide-left-leave-active,
 .slide-right-enter-active,

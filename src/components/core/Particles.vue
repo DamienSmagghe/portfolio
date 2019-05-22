@@ -16,13 +16,12 @@ export default {
       this.initParticlesJS()
     })
   },
-
   methods: {
     initParticlesJS () {
 // ParticlesJS Config.
 particlesJS("particles-js", {
   "particles": {
-    "number": {
+    "number": {                                                       
       "value": 100,
       "density": {
         "enable": true,
@@ -130,10 +129,17 @@ particlesJS("particles-js", {
     width: 90%;
     height: 100%;
     z-index: -5;
+    pointer-events: none;
     
 }
 #particles-js {
   width: 100%;
   height: 80%;
+}
+.hidden {
+  display: none;
+}
+.shown {
+  display: block;
 }
 </style>

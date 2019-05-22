@@ -2,29 +2,31 @@
     <div class="header wrapped" id="head">
         <div class="header__info">
             <router-link to="/" href="#" title="Back to home" class="logo">DS</router-link>
-            <div class="header__nav">
-                <ul>
-                    <li @mouseenter="swipeText" @mouseleave="resetText" :class="{current : $route.name === 'home'}">
-                        <router-link to="/" >
-                            <span class="letter">P</span><span class="letter">r</span><span class="letter">o</span><span class="letter">j</span><span class="letter">e</span><span class="letter">c</span><span class="letter">t</span><span class="letter">s</span>
-                        </router-link>
-                        <div class="header__nav__hoverBar"></div>
-                    </li>
-                    <li @mouseenter="swipeText" @mouseleave="resetText" :class="{current : $route.name === 'about'}">
-                        <router-link to="/about">
-                            <span class="letter">A</span><span class="letter">b</span><span class="letter">o</span><span class="letter">u</span><span class="letter">t</span>&nbsp<span class="letter">m</span><span class="letter">e</span>
-                        </router-link>
-                        <div class="header__nav__hoverBar"></div>
-                    </li>
-                    <li @mouseenter="swipeText" @mouseleave="resetText">
-                        <a href="mailto:damien.smagghe@hotmail.fr" title="Mail Damien Smagghe">
-                             <span class="letter">C</span><span class="letter">o</span><span class="letter">n</span><span class="letter">t</span><span class="letter">a</span><span class="letter">c</span><span class="letter">t</span>
+            <transition name="fadeup" appear>
+                <div class="header__nav">
+                    <ul>
+                        <li @mouseenter="swipeText" @mouseleave="resetText" :class="{current : $route.name === 'home'}">
+                            <router-link to="/" >
+                                <span class="letter">P</span><span class="letter">r</span><span class="letter">o</span><span class="letter">j</span><span class="letter">e</span><span class="letter">c</span><span class="letter">t</span><span class="letter">s</span>
+                            </router-link>
+                            <div class="header__nav__hoverBar"></div>
+                        </li>
+                        <li @mouseenter="swipeText" @mouseleave="resetText" :class="{current : $route.name === 'about'}">
+                            <router-link to="/about">
+                                <span class="letter">A</span><span class="letter">b</span><span class="letter">o</span><span class="letter">u</span><span class="letter">t</span>&nbsp<span class="letter">m</span><span class="letter">e</span>
+                            </router-link>
+                            <div class="header__nav__hoverBar"></div>
+                        </li>
+                        <li @mouseenter="swipeText" @mouseleave="resetText">
+                            <a href="mailto:damien.smagghe@hotmail.fr" title="Mail Damien Smagghe">
+                                <span class="letter">C</span><span class="letter">o</span><span class="letter">n</span><span class="letter">t</span><span class="letter">a</span><span class="letter">c</span><span class="letter">t</span>
 
-                        </a>
-                        <div class="header__nav__hoverBar"></div>
-                    </li>
-                </ul>
-            </div>
+                            </a>
+                            <div class="header__nav__hoverBar"></div>
+                        </li>
+                    </ul>
+                </div>
+            </transition>
         </div>
         <h1>Damien Smagghe - Freelance front-end developer</h1>
     </div>

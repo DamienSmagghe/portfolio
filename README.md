@@ -1,4 +1,4 @@
-# portfolio
+# Damien Smagghe's portfolio
 
 > A Vue.js project
 
