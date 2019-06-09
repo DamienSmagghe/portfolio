@@ -16,10 +16,10 @@
                             <p><span>Anime.js | D3.js | Chart.js :</span> The librairies I use the most in Javascript.</p>
                         </li>
                         <li>
-                            <p><span>French | English :</span> French is my native language and I learned English by travelling and watching Netflix.</p>
+                            <p><span>French | English :</span> French is my native language and I learned English by travelling and watching movies.</p>
                         </li>
                         <li>
-                            <p><span>Useful :</span> I know how to design interface with sketch and work agile with Trello, Slack and Notion. I also know SEO optimisation and I have a sensibility to UX & UI design.</p>
+                            <p><span>Useful :</span> I know how to design UI & UX thanks to my various projects and I'm used to work in agile with Trello, Slack and Notion. I also know SEO optimisation.</p>
                         </li>
                     </ul>
                 </div>
@@ -33,7 +33,7 @@
                         </li>
                         <li>
                             <p>
-                                I am also passionate about sports ( <span>Thai boxing, diving, sailing</span> ) and the AI/data environment. If you want to talk muay-thay or AI/data do not hesitate to <span>leave a message</span> ! I’d really love to work into a company or an agency that deals with sport companies.
+                                I am also passionate about sports ( <span>Thai boxing, diving, sailing</span> ) and the AI/data environment. If you want to talk muay-thay or AI/data do not hesitate to <span>leave a message</span> ! I’d really love to work into a company or an agency that deals with sport and/or data/AI.
                             </p>
                         </li>
                     </ul>
@@ -52,9 +52,7 @@
                 </span>
             </a>
             </div>
-            
-        </main>
-        <app-footer></app-footer>
+        </main><app-footer></app-footer>
     </div>
 </template>
 <script>
@@ -69,12 +67,14 @@ export default {
 <style>
 .about {
     min-height: 75vh;
+    position: absolute;
 }
  .about h2 {
      font-size: 2.5rem;
      font-family: Playfair;
      font-weight: bold;
-     margin-bottom: 2rem;
+     margin-top: 2rem;
+     margin-bottom: 4rem;
  }
  .about .about__blocks {
      display: flex;
@@ -111,8 +111,13 @@ export default {
      }
       .about .abilities, .about .passions {
         width: 100%;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
  }
+  @media screen and (max-width: 660px) {
+      .about h2 {
+          font-size: 2rem;
+      }
+  }
  }
 </style>
 

@@ -74,7 +74,7 @@ particlesJS("particles-js", {
       "direction": "none",
       "random": true,
       "straight": false,
-      "out_mode": "out",
+      "out_mode": "bounce",
       "bounce": false,
       "attract": {
         "enable": false,
@@ -89,7 +89,9 @@ particlesJS("particles-js", {
       "onhover": {
         "enable": true,
         "mode": "repulse" },
-
+        "onclick": {
+          "enable": false
+        },
       "resize": true },
 
     "modes": {
@@ -126,7 +128,7 @@ particlesJS("particles-js", {
 <style>
 .particles__container {
     position: absolute;
-    width: 90%;
+    width: 85%;
     height: 100%;
     z-index: -5;
     pointer-events: none;

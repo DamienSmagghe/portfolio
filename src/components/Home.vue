@@ -4,8 +4,6 @@
         <app-projects></app-projects>
         <app-more></app-more>
         <app-footer></app-footer>
-        <transition name="fade" appear>
-        </transition>
     </div>
 </template>
 <script>

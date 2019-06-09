@@ -11,7 +11,7 @@
         <transition name="fadedown" appear>
             <p>
                 You can see my work on <a href="https://github.com/DamienSmagghe" target="blank" title="Damien Smagghe's Github page">Github </a> or <a href="https://codepen.io/DamienSmg/" target="blank" title="Damien Smagghe's Codepen link">Codepen</a> and my professionnal history on <a href="https://www.linkedin.com/in/damien-smagghe-2a226a171/" target="blank" title="Link to Damien Smagghe's Linkedin">Linkedin</a> or <a href="https://www.malt.fr/profile/damiensmagghe" target="blank" title="Damien Smagghe's malt profile">Malt</a>. If you
-                want to work with me or say hello, feel free to <a href="mailto:damien.smagghe@hotmail.fr" title="Mail Damien Smagghe">contact me</a>.
+                want to work with me or say hello, feel free to <a href="mailto:damien.smagghe@hotmail.fr" title="Mail Damien Smagghe">contact me by mail</a>.
             </p>
         </transition>
         <transition name="fade" appear>
@@ -111,6 +111,25 @@ import Particles from '../core/Particles'
         font-family: Playfair;
         font-size: 1.2rem;
         position: relative;
+    }
+    .home__landing__scrollInvite a {
+        position: relative;
+        display: inline-block;
+        white-space: nowrap;
+    }
+    .home__landing__scrollInvite a::after {
+        content: "";
+        width: 100%;
+        height: 0.5rem;
+        background: #1C23F570;
+        display: block;
+        transform: scaleX(0) translateY(-0.5rem);
+        transform-origin: left;
+        will-change: transform;
+        transition: 0.25s ease-out;
+    }
+    .home__landing__scrollInvite a:hover::after {
+        transform: scaleX(1) translateY(-0.5rem);
     }
     @media screen and (max-width: 1040px) {
         .home__landing p {

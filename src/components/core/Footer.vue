@@ -2,15 +2,14 @@
     <footer>
         <div class="wrapped">
             <p>
-                I’m currently looking for <strong>6 month internship</strong> between June and December 2020 and <strong>freelancing missions</strong>. If you are interested feel free to contact me on every social media and see my work : <br>
+                I’m currently looking for <strong>6 month internship </strong>in <strong>Canada, South america or France</strong> between June and December 2020 and <strong>freelancing missions</strong>. If you are interested feel free to contact me on every social media and see my work : <br>
                 <a href="https://github.com/DamienSmagghe" target="blank" title="Damien Smagghe's Github page">Github</a>,
                 <a href="https://www.linkedin.com/in/damien-smagghe-2a226a171/" target="blank" title="Link to Damien Smagghe's Linkedin">Linkedin</a>,
                 <a href="https://www.malt.fr/profile/damiensmagghe" target="blank" title="Damien Smagghe's malt profile">Malt</a>,
                 <a href="https://codepen.io/DamienSmg/" target="blank" title="Damien Smagghe's Codepen link">Codepen</a> or
-                <a href="mailto:damien.smagghe@hotmail.fr" title="Mail Damien Smagghe">contact me</a> directly.
+                <a href="mailto:damien.smagghe@hotmail.fr" title="Mail Damien Smagghe">contact me by mail</a> directly.
             </p>
         </div>
-    
     </footer>
 </template>
 

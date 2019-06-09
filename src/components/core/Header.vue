@@ -23,6 +23,9 @@
 
                             </a>
                             <div class="header__nav__hoverBar"></div>
+                            <p class="mailTip">
+                                damien.smagghe@hotmail.fr
+                            </p>
                         </li>
                     </ul>
                 </div>
@@ -177,6 +180,18 @@
     
     .header__nav ul li a:hover+.header__nav__hoverBar {
         transform: scaleX(1);
+    }
+    .header__nav ul li:last-of-type:hover .mailTip {
+        opacity: 1;
+    }
+    .mailTip {
+        position: absolute;
+        font-size: 0.6rem;
+        margin: 10px;
+        right: 0;
+        top: 20px;
+        opacity: 0;
+        transition: 0.2s ease-out;
     }
     .header__nav ul li a .letter {
         display: inline-block;

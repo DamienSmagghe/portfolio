@@ -3,7 +3,7 @@
         <div class="row"></div>
         <span class="home__projects__project__id" v-html="data.id"></span>
         <div class="home__projects__project__overview">
-            <img :src="data.imageName" alt="Project">
+            <img :src="data.imageName" :srcset="data.srcset" :alt="data.alt">
         </div>
         <div class="home__projects__project__information">
             <h3 v-html="data.title"></h3>
