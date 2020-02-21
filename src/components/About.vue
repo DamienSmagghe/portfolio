@@ -7,19 +7,19 @@
                     <h3>Main abilities</h3>
                     <ul>
                         <li>
-                            <p><span>Web stack :</span> HTML5, CSS, Modern Javascript (es6+), PHP.</p>
+                            <p><span>Web stack :</span> HTML5, CSS, Modern Javascript (es6+), Node.js, SQL/PLSQL.</p>
                         </li>
                         <li>
-                            <p><span>Vue.js :</span> This is my main framework that i enjoy working with in Javascript.</p>
+                            <p><span>Vue.js/ Angular 8 :</span> This is my main frameworks that i enjoy working with in Javascript.</p>
                         </li>
                         <li>
                             <p><span>Anime.js | D3.js | Chart.js :</span> The librairies I use the most in Javascript.</p>
                         </li>
                         <li>
-                            <p><span>French | English :</span> French is my native language and I learned English by travelling and watching movies.</p>
+                            <p><span>Web-scrapping :</span>Using Pupeeter.js</p>
                         </li>
                         <li>
-                            <p><span>Useful :</span> I know how to design UI & UX thanks to my various projects and I'm used to work in agile with Trello, Slack and Notion. I also know SEO optimisation.</p>
+                            <p><span>Useful :</span> I'm used to Docker containerisation. I also know how to design UI & UX thanks to my various projects and I'm used to work in agile with Trello, Slack and Notion.</p>
                         </li>
                     </ul>
                 </div>
@@ -33,7 +33,7 @@
                         </li>
                         <li>
                             <p>
-                                I am also passionate about sports ( <span>Thai boxing, diving, sailing</span> ) and the AI/data environment. If you want to talk muay-thay or AI/data do not hesitate to <span>leave a message</span> ! I’d really love to work into a company or an agency that deals with sport and/or data/AI.
+                                I am also passionate about sports (<span>Thai boxing, diving, sailing</span>) and the AI/data-analysis environment which I study at ESGI. If you want to talk sport or tech do not hesitate to <span>leave a message</span>.
                             </p>
                         </li>
                     </ul>

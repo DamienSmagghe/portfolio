@@ -31,7 +31,7 @@
                 </div>
             </transition>
         </div>
-        <h1>Damien Smagghe - Freelance front-end developer</h1>
+        <h1>Damien Smagghe - freelance</h1>
     </div>
 </template>
 

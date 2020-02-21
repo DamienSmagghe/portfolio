@@ -4,13 +4,12 @@
         <transition name="fadeleft" appear>
             <h2>
                 <strong>Hello world ! </strong>I’m Damien a
-                <strong>web developer</strong> based in Paris. <br> I enjoy building
-                <strong>experiences</strong> that are <strong>user-focused</strong>.
+                <strong>full-stack developer </strong>and<strong> data engineering</strong> student based in Paris. <br>I enjoy building data-vizualisations and working with<strong> data</strong>.
             </h2>
         </transition>
         <transition name="fadedown" appear>
             <p>
-                You can see my work on <a href="https://github.com/DamienSmagghe" target="blank" title="Damien Smagghe's Github page">Github </a> or <a href="https://codepen.io/DamienSmg/" target="blank" title="Damien Smagghe's Codepen link">Codepen</a> and my professionnal history on <a href="https://www.linkedin.com/in/damien-smagghe-2a226a171/" target="blank" title="Link to Damien Smagghe's Linkedin">Linkedin</a> or <a href="https://www.malt.fr/profile/damiensmagghe" target="blank" title="Damien Smagghe's malt profile">Malt</a>. If you
+                You can see a part of my work on <a href="https://github.com/DamienSmagghe" target="blank" title="Damien Smagghe's Github page">Github </a> or <a href="https://codepen.io/DamienSmg/" target="blank" title="Damien Smagghe's Codepen link">Codepen</a> and my professionnal history on <a href="https://www.linkedin.com/in/damien-smagghe-2a226a171/" target="blank" title="Link to Damien Smagghe's Linkedin">Linkedin</a> or <a href="https://www.malt.fr/profile/damiensmagghe" target="blank" title="Damien Smagghe's malt profile">Malt</a>. If you
                 want to work with me or say hello, feel free to <a href="mailto:damien.smagghe@hotmail.fr" title="Mail Damien Smagghe">contact me by mail</a>.
             </p>
         </transition>

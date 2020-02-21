@@ -2,7 +2,7 @@
     <footer>
         <div class="wrapped">
             <p>
-                I’m currently looking for <strong>6 month internship </strong>in <strong>Canada, South america or France</strong> between June and December 2020 and <strong>freelancing missions</strong>. If you are interested feel free to contact me on every social media and see my work : <br>
+                I’m currently working at <a href="https://business.memento.photo" target="blank" title="Memento business page">Memento</a>in. I'm still available for <strong>freelancing missions</strong>. If you are interested feel free to contact me on any social media and see my work : <br>
                 <a href="https://github.com/DamienSmagghe" target="blank" title="Damien Smagghe's Github page">Github</a>,
                 <a href="https://www.linkedin.com/in/damien-smagghe-2a226a171/" target="blank" title="Link to Damien Smagghe's Linkedin">Linkedin</a>,
                 <a href="https://www.malt.fr/profile/damiensmagghe" target="blank" title="Damien Smagghe's malt profile">Malt</a>,
