@@ -17,7 +17,7 @@
                 </span>
                 <span class='main'>
                   <span class='text'>
-                    Demo
+                    Visit
                   </span>
                 <span class='the-arrow -right'>
                     <span class='shaft'></span>
